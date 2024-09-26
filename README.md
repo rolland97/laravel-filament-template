@@ -12,7 +12,7 @@ To use this template:
 
 ## Prerequisites
 
-- PHP 8.1 or higher
+- PHP 8.2 or higher
 - Composer
 - Node.js and npm
 
@@ -20,12 +20,12 @@ To use this template:
 
 This template comes pre-configured with the following packages:
 
-### Development Packages
+### Additional Development Packages
 
 - `barryvdh/laravel-debugbar`: ^3.14
 - `barryvdh/laravel-ide-helper`: ^3.1
-- `fakerphp/faker`: ^1.9.1
 - `larastan/larastan`: ^2.9
+- `laravel/pint`: ^1.18
 - `pestphp/pest`: ^2.35
 - `pestphp/pest-plugin-faker`: ^2.0
 - `pestphp/pest-plugin-laravel`: ^2.4
