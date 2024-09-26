@@ -2,9 +2,9 @@ name: Laravel Filament Tests
 
 on:
   push:
-    branches: [ main, docker, with-filament-resources ]
+    branches: [ main, docker ]
   pull_request:
-    branches: [ main, docker, with-filament-resources ]
+    branches: [ main, docker ]
 
 jobs:
   test:
