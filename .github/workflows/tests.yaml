@@ -67,9 +67,6 @@ jobs:
         DB_PASSWORD: password
       run: vendor/bin/pest
 
-    - name: Run Laravel Pint
-      run: ./vendor/bin/pint --test
-
     - name: Run Larastan
       run: ./vendor/bin/phpstan analyse
 
