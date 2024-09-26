@@ -70,8 +70,8 @@ jobs:
     - name: Execute PHPStan
       run: vendor/bin/phpstan analyse
 
-    - name: Execute PHP Code Sniffer
-      run: vendor/bin/phpcs
+    - name: Run Larastan
+      run: ./vendor/bin/phpstan analyse
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
