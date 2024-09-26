@@ -16,6 +16,23 @@ To use this template:
 - Composer
 - Node.js and npm
 
+## Included Packages
+
+This template comes pre-configured with the following packages:
+
+### Development Packages
+
+- `barryvdh/laravel-debugbar`: ^3.14
+- `barryvdh/laravel-ide-helper`: ^3.1
+- `fakerphp/faker`: ^1.9.1
+- `larastan/larastan`: ^2.9
+- `pestphp/pest`: ^2.35
+- `pestphp/pest-plugin-faker`: ^2.0
+- `pestphp/pest-plugin-laravel`: ^2.4
+- `pestphp/pest-plugin-livewire`: ^2.1
+
+These packages provide tools for debugging, IDE support, static analysis, and testing.
+
 ## Setup Instructions
 
 1. Navigate to your project directory:
