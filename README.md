@@ -85,8 +85,8 @@ This template includes a GitHub Actions workflow for continuous integration. The
 
 - Runs on push and pull requests to the `main` and `docker` branches
 - Uses a matrix strategy to test across multiple configurations:
-  - PHP versions: 8.1, 8.2, 8.3
-  - Laravel versions: 10.*, 11.*
+  - PHP versions: 8.2, 8.3
+  - Laravel versions: 10.\*, 11.\*
   - Dependency versions: prefer-lowest, prefer-stable
 - Sets up a MySQL database for testing
 - Runs migrations and seeds the database
@@ -94,7 +94,7 @@ This template includes a GitHub Actions workflow for continuous integration. The
 - Performs static analysis with PHPStan
 - Checks code style with PHP Code Sniffer
 
-To view or modify the workflow, check the `.github/workflows/tests.yml` file in your repository.
+To view or modify the workflow, check the `.github/workflows/tests.yaml` file in your repository.
 
 ## Future Enhancements
 
